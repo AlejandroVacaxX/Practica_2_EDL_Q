@@ -64,8 +64,8 @@ regresaremos 0;
 
   
                 
-
-# Analisis del trabajo realizado
+---
+## Analisis del trabajo realizado
 
 El desarrollo de ambos metodos se realizo con una estructura LIFO, es decir que se utilizo una ***pila***
 
@@ -74,3 +74,9 @@ Debido a la estructura LIFO es posible realizar el algoritmo,
 si hubieramos elegido una cola de tipo FIFO el algoritmo no hubiera funcionado. la idea de la pila es que podamos guardar los operadores, y gracias al metodo ***top*** podemos ir sacando los operadores cuando se necesiten,esto para la funcion ***in2pos***.
 
 Para la funcion ***Evaluar*** utilizamos 2 pilas, la idea es replicar el algoritmo de  ___in2pos___ para poder guardar los operadores, pero esta vez utilizamos una segunda para poder guardar los operandos, de esta forma podemos controlar que solo al tener 2 o mas valores en la pila de operandos se pueda realizar una operacion, de esta forma creamos un metodo robusto.
+
+---
+## Conclusion
+Al realizar la practica no solo reforze mis conocimientos en pilas, tambien la forma de resolver problemas de manera efectiva y eficiente. asi mismo consegui incrementar mis conocimientos en nodos asi como mis conocimientos en creacion de bibliotecas en c++.
+
+El que tuviera que modificar un codigo ajeno en lugar de crear uno desde cero reforzo mis conocimientos en este ambito, es bien sabido que a la hora de ejercer es comun darle mantenimiento a codigo ajeno, no la creacion desde cero. una de las habilidades blandas mas importantes en el ambito laboral es poder entender, reparar y modificar codigo de terceros.
